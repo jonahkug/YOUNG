@@ -1,0 +1,10 @@
+var person = {
+    firstname: "kisoro",
+    lastname: "jonah",
+    age: 25,
+    fullname: function(){
+        return this.firstname + this.lastname;
+    }
+};
+
+console.log(person.fullname() + ' is '+ person.age + 'year old');
